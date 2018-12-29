@@ -12,8 +12,7 @@ void setup(void)
   pinMode(led, OUTPUT);
   Timer3.initialize(1500000);
   Timer3.attachInterrupt(blinkLED); // blinkLED to run every 0.15 seconds
-  Serial.begin(9600);
-  Serial1.begin(9600);
+  Serial1.begin(115200);
 }
 
 
